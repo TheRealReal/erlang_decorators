@@ -1,8 +1,9 @@
 {application, decorators,
  [
-  {description, ""},
-  {vsn, git},
+  {description, "Function decorators for Erlang."},
+  {vsn, "0.1.0"},
   {registered, []},
   {applications, [kernel, stdlib, syntax_tools]},
-  {env, []}
+  {env, []},
+  {links, [{"GitHub", "https://github.com/chrisavl/erlang_decorators"}]}
  ]}.
